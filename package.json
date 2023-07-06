@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint 'app/**/*.@(js|jsx)'",
     "test": "mocha --compilers js:babel-core/register --require ./test/setup.js",
-    "test0": "mocha",
+    "test0": "mocha --compilers js:babel-core/register",
     "build": "webpack",
     "start": "webpack-dev-server --devtool eval --progress --hot --colors --content-base app",
     "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js",

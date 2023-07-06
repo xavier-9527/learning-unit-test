@@ -1,7 +1,7 @@
-const hello = require('../app/utils/hello');
-const assert = require('assert');
-// import hello from '../app/utils/hello';
-// import assert from 'assert';
+// const hello = require('../app/utils/hello');
+// const assert = require('assert');
+import hello from '../app/utils/hello';
+import assert from 'assert';
 
 describe('First Test Demo', () => {
   it('result should be 2', () => {
