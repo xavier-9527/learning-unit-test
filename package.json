@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint 'app/**/*.@(js|jsx)'",
     "test": "mocha --compilers js:babel-core/register --require ./test/setup.js",
+    "test0": "mocha",
     "build": "webpack",
     "start": "webpack-dev-server --devtool eval --progress --hot --colors --content-base app",
     "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js",
@@ -27,7 +28,6 @@
     "copy-webpack-plugin": "~0.3.3",
     "css-loader": "~0.23.0",
     "mocha": "^2.3.4",
-    "react-addons-test-utils": "^0.14.6",
     "eslint": "~1.10.1",
     "eslint-config-airbnb": "~1.0.0",
     "eslint-plugin-react": "~3.10.0",
