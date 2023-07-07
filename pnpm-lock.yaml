@@ -16,6 +16,7 @@ specifiers:
   eslint-config-airbnb: ~1.0.0
   eslint-plugin-react: ~3.10.0
   jest: 16.0.2
+  jsdom: ^7.2.2
   object-assign: ^4.0.1
   open-browser-webpack-plugin: 0.0.1
   precommit-hook: ~3.0.0
@@ -46,6 +47,7 @@ devDependencies:
   eslint-config-airbnb: 1.0.2_eslint@1.10.3
   eslint-plugin-react: 3.10.0
   jest: 16.0.2
+  jsdom: 7.2.2
   object-assign: 4.1.1
   open-browser-webpack-plugin: 0.0.1
   precommit-hook: 3.0.0
@@ -76,6 +78,12 @@ packages:
       negotiator: 0.6.3
     dev: true
 
+  /acorn-globals/1.0.9:
+    resolution: {integrity: sha512-j3/4pkfih8W4NK22gxVSXcEonTpAHOHh0hu5BoZrKcOsW/4oBPxTi4Yk3SAj+FhC1f3+bRTkXdm4019gw1vg9g==}
+    dependencies:
+      acorn: 2.7.0
+    dev: true
+
   /acorn-globals/3.1.0:
     resolution: {integrity: sha512-uWttZCk96+7itPxK8xCzY86PnxKTMrReKDqrHzv42VQY0K30PUO8WY13WMOuI+cOdX4EIdzdvQ8k6jkuGRFMYw==}
     dependencies:
@@ -84,6 +92,12 @@ packages:
 
   /acorn-to-esprima/1.0.7:
     resolution: {integrity: sha512-5Hl0LEy4KVqrtZpx4I1cmJT5u0YzU5s90ILXsTEUWfsftXkm0sUqZ5uu3CInbBvpYEsLFjCTAyQR9Zw44hhqew==}
+    dev: true
+
+  /acorn/2.7.0:
+    resolution: {integrity: sha512-pXK8ez/pVjqFdAgBkF1YPVRacuLQ9EXBKaKWaeh58WNfMkCmZhOZzu+NtKSPD5PHmCCHheQ5cD29qM1K4QTxIg==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
     dev: true
 
   /acorn/4.0.13:
@@ -3785,6 +3799,26 @@ packages:
     resolution: {integrity: sha512-UVU9dibq2JcFWxQPA6KCqj5O42VOmAY3zQUfEKxU0KpTGXwNoCjkX1e13eHNvw/xPynt6pU0rZ1htjWTNTSXsg==}
     dev: true
 
+  /jsdom/7.2.2:
+    resolution: {integrity: sha512-kYeYuos/pYp0V/V8VAoGnUc0va0UZjTjwCsldBFZNBrOi9Q5kUXrvsw6W5/lQllB7hKXBARC4HRk1Sfk4dPFtA==}
+    dependencies:
+      abab: 1.0.4
+      acorn: 2.7.0
+      acorn-globals: 1.0.9
+      cssom: 0.3.8
+      cssstyle: 0.2.37
+      escodegen: 1.14.3
+      nwmatcher: 1.4.4
+      parse5: 1.5.1
+      request: 2.88.2
+      sax: 1.2.4
+      symbol-tree: 3.2.4
+      tough-cookie: 2.5.0
+      webidl-conversions: 2.0.1
+      whatwg-url-compat: 0.6.5
+      xml-name-validator: 2.0.1
+    dev: true
+
   /jsdom/9.12.0:
     resolution: {integrity: sha512-Qw4oqNxo4LyzkSqVIyCnEltTc4xV3g1GBaI88AvYTesWzmWHUSoMNmhBjUBa+6ldXIBJS9xoeLNJPfUAykTyxw==}
     dependencies:
@@ -6369,6 +6403,10 @@ packages:
       - supports-color
     dev: true
 
+  /webidl-conversions/2.0.1:
+    resolution: {integrity: sha512-OZ7I/f0sM+T28T2/OXinNGfmvjm3KKptdyQy8NPRZyLfYBn+9vt72Bfr+uQaE9OvWyxJjQ5kHFygH2wOTUb76g==}
+    dev: true
+
   /webidl-conversions/3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
     dev: true
@@ -6478,6 +6516,12 @@ packages:
 
   /whatwg-fetch/0.9.0:
     resolution: {integrity: sha512-DIuh7/cloHxHYwS/oRXGgkALYAntijL63nsgMQsNSnBj825AysosAqA2ZbYXGRqpPRiNH7335dTqV364euRpZw==}
+
+  /whatwg-url-compat/0.6.5:
+    resolution: {integrity: sha512-vbg5+JVNwGtHRI3GheZGWrcUlxF9BXHbA80dLa+2XqJjlV/BK6upoi2j8dIRW9FGPUUyaMm7Hf1pTexHnsk85g==}
+    dependencies:
+      tr46: 0.0.3
+    dev: true
 
   /whatwg-url/4.8.0:
     resolution: {integrity: sha512-nUvUPuenPFtPfy/X+dAYh/TfRbTBlnXTM5iIfLseJFkkQewmpG9pGR6i87E9qL+lZaJzv+99kkQWoGOtLfkZQQ==}
