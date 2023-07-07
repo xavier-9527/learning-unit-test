@@ -1,0 +1,35 @@
+{
+	"files.eol": "\r\n",
+	"editor.tabSize": 2,
+	// 是否开启eslint检测
+	"eslint.enable": true,
+	// eslint配置文件
+	// "eslint.options": {
+	//   "overrideConfigFile": ".eslintrc.js"
+	// },
+	"[javascript]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		}
+	},
+	"[javascriptreact]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		}
+	},
+	"[typescript]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+    "editor.formatOnSave": true, // 开启保存后自动格式化
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+    "editor.formatOnSave": true, // 开启保存后自动格式化
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"typescript.tsdk": "node_modules/typescript/lib"
+}
