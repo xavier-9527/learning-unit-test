@@ -33,6 +33,7 @@
     "chai": "^3.4.1",
     "react-addons-test-utils": "^0.14.6",
     "jsdom": "^7.2.2",
+    "enzyme": "^1.4.1",
     "object-assign": "^4.0.1",
     "open-browser-webpack-plugin": "0.0.1",
     "precommit-hook": "~3.0.0",
