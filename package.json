@@ -31,6 +31,7 @@
     "eslint-plugin-react": "~3.10.0",
     "jest": "16.0.2",
     "react-addons-test-utils": "^0.14.6",
+    "@testing-library/react": "8.0.1",
     "object-assign": "^4.0.1",
     "open-browser-webpack-plugin": "0.0.1",
     "precommit-hook": "~3.0.0",
